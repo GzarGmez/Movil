@@ -1,0 +1,33 @@
+name: untitled
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.0  # Asegúrate de usar la última versión de Dio aquí
+  http: ^0.13.3  # Asegúrate de usar la última versión de http aquí
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Logo.png
+    - assets/images/LogoGrande.png
+    - assets/images/gorra.png
+    - assets/images/camisa.png
+    - assets/images/promo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ic_launcher.png"
